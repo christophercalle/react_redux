@@ -18,11 +18,12 @@
     display: block;
     height: 16px;
     width: 16px;
+    margin-left: 38%;
 }
 
 .table-list{
     text-align: center;
-    width: 5%;
+    width: 100%;
 }
 .table-list td span{
     display: block;
@@ -35,10 +36,10 @@
 .table-list tr td{
     padding: 8px;
 }
-.item-checout .first-column-checkout{
+.item-checkout .first-column-checkout{
     width: 12%;
 }
-.item-checout td{
+.item-checkout td{
     border-bottom: 1px solid #ddd;
     text-align: center;
     vertical-align: middle;
@@ -75,9 +76,17 @@
     line-height: 18px;
 }
 
+.thumbnail img {
+    display:inline-block !important;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: rgb(36, 36, 36);
+}
+
 .btn-block {
-    background-color: #95adda;
-    border-color: #7185aa;
+    background-color: #7185aa;
 }
 
 @media only screen and (max-width : 1200px){
