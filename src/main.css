@@ -89,6 +89,10 @@
     background-color: #7185aa;
 }
 
+view-container {
+    width: 70px;
+}
+
 @media only screen and (max-width : 1200px){
 }
 @media only screen and (max-width : 992px){
@@ -99,3 +103,4 @@
 }
 @media only screen and (max-width : 320px){
 }
+
